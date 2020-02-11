@@ -1,0 +1,18 @@
+.Title .edit-icon {
+    opacity: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: brown;
+}
+.Title:hover .edit-icon {
+    opacity: 1;
+}
+
+.Title .form-control {
+    height: 50px;
+    font-size: 24px;
+}
+.fa-eye-slash {
+    font-size: 24px;
+    margin-top: 30px;
+}
